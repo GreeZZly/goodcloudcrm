@@ -1,0 +1,43 @@
+.counter{
+    width: 440px;
+    position: relative;
+    /*float: left;*/
+    height: 70px;
+
+    }
+    .counter_element{
+        background-image: url(/include/images/arrows.png);
+        position: relative;
+        background-position: -23px -165px;
+        float: left;
+        width: 63px;
+        height: 99px;
+        overflow: hidden;
+        margin: 0 5px;
+        color: #fefefe;
+        }
+        .counter_element span{
+            position: absolute;
+            font-size: 60px;
+            /*padding-left: 12px;*/
+            left: 0;
+            width: 63px;
+            height: 99px;
+            overflow: hidden;
+            text-align: center;
+            line-height: 99px;
+        }
+        .counter_element .visible{
+            top: 0;
+        }
+        .counter_element .invisible{
+            top: -99px;
+            display: none;
+        }
+
+#counter_field {
+    width: 400px;
+    /*padding: 2px 20px;
+    margin:40px auto 0; 
+*/
+}
